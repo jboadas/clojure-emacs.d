@@ -1,2 +1,2 @@
-# clojure-emacs.d
+# clojure emacs.d
 My clojure emacs repository

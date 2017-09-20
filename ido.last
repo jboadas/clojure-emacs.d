@@ -1,0 +1,286 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("c:/Lisp/home/.emacs.d/elpa/" . "haskell-mode-16.1/")
+ ("c:/Lisp/home/.emacs.d/" . "elpa/")
+ ("c:/devel/scala/" . "testsbt/")
+ ("c:/Users/Sistemas/" . "Downloads/")
+ ("c:/Users/" . "Sistemas/")
+ ("c:/devel/Clojure/ads-mockup-master/src/" . "ads_mockup/")
+ ("c:/devel/Clojure/ads-mockup-master/" . "src/")
+ ("c:/freelance/JavaCodeGeeks/" . "30 Vaadin Best Practices/")
+ ("c:/devel/Clojure/hello-clojurescript/src/" . "hello_clojurescript/")
+ ("c:/devel/Clojure/hello-clojurescript/" . "out/")
+ ("c:/devel/Clojure/trivia/resourecs/public/js/compiled/" . "out/")
+ ("c:/devel/Clojure/trivia/resourecs/public/js/" . "compiled/")
+ ("c:/devel/Clojure/trivia/resourecs/public/" . "js/")
+ ("c:/devel/Clojure/trivia/resourecs/" . "public/")
+ ("c:/devel/Clojure/trivia-master/src/clj/" . "trivia/")
+ ("c:/devel/Clojure/trivia-master/src/cljs/" . "trivia/")
+ ("c:/devel/Clojure/trivia-master/src/" . "cljs/")
+ ("c:/devel/Clojure/trivia-master/" . "src/")
+ ("c:/devel/Clojure/trivia/resources/public/js/" . "compiled/")
+ ("c:/devel/Clojure/trivia/resources/public/" . "js/")
+ ("c:/devel/Clojure/trivia/resources/" . "public/")
+ ("c:/devel/Clojure/trivia/src/cljs/" . "trivia/")
+ ("c:/devel/Clojure/trivia/src/" . "cljs/")
+ ("c:/devel/Clojure/trivia/" . "src/")
+ ("c:/home/devel/clojure/trivia/resources/" . "public/")
+ ("c:/home/devel/clojure/trivia/src/cljs/" . "trivia/")
+ ("c:/home/devel/clojure/trivia/src/clj/" . "trivia/")
+ ("c:/home/devel/clojure/trivia/src/" . "cljs/")
+ ("c:/home/devel/clojure/trivia/" . "src/")
+ ("c:/home/devel/clojure/ads-mockup/src/" . "ads_mockup/")
+ ("c:/home/devel/clojure/ads-mockup/" . "src/")
+ ("c:/home/devel/clojure/test/src/" . "test/")
+ ("c:/home/devel/clojure/test/" . "src/")
+ ("c:/home/devel/clojure/" . "trivia/")
+ ("c:/home/devel/" . "clojure/")
+ ("c:/home/" . "devel/")
+ ("c:/devel/Clojure/ccc01/src/" . "ccc01/")
+ ("c:/devel/Clojure/ccc01/" . "src/")
+ ("c:/devel/Java/LWJGL/HelloLWJGL3/src/" . "example/")
+ ("c:/devel/Java/LWJGL/HelloLWJGL3/" . "src/")
+ ("c:/devel/Java/LWJGL/" . "HelloLWJGL3/")
+ ("c:/devel/Java/" . "LWJGL/")
+ ("c:/Recovery/" . "e5ecf6c0-5a62-11e2-88a6-e8e84e616130/")
+ ("c:/devel/Clojure/project1/src/" . "project1/")
+ ("c:/devel/Clojure/project1/" . "src/")
+ ("c:/devel/Clojure/cheshire-cat/src/" . "cheshire_cat/")
+ ("c:/devel/Clojure/cheshire-cat/" . "src/")
+ ("c:/devel/Clojure/" . "ads-mockup-master/")
+ ("c:/devel/" . "haskell/")
+ ("c:/Lisp/home/" . ".emacs.d/")
+ ("c:/Lisp/" . "home/")
+ ("c:/" . "Lisp/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "c:/Lisp/home/.emacs.d/"
+ "c:/devel/haskell/"
+ "c:/Lisp/home/.emacs.d/elpa/haskell-mode-16.1/"
+ "c:/devel/scala/testsbt/"
+ "c:/Users/Sistemas/Downloads/"
+ "c:/devel/Clojure/ads-mockup-master/src/ads_mockup/"
+ "c:/freelance/JavaCodeGeeks/30 Vaadin Best Practices/"
+ "c:/freelance/JavaCodeGeeks/41 Apache Tomcat Http Connector Example/"
+ "c:/devel/Clojure/hello-clojurescript/"
+ "c:/devel/Clojure/hello-clojurescript/out/"
+ "c:/devel/Clojure/hello-clojurescript/src/hello_clojurescript/"
+ "c:/devel/Clojure/trivia/src/cljs/trivia/"
+ "c:/devel/Clojure/trivia/resources/public/"
+ "c:/devel/Clojure/trivia/"
+ "c:/devel/Clojure/trivia-master/src/cljs/trivia/"
+ "c:/home/devel/clojure/trivia/src/cljs/trivia/"
+ "c:/home/devel/clojure/trivia/resources/public/"
+ "c:/home/devel/clojure/trivia/"
+ "c:/home/devel/clojure/test/src/test/"
+ "c:/home/devel/clojure/trivia/src/clj/trivia/"
+ "c:/home/.emacs.d/"
+ "c:/home/devel/clojure/trivia/src/clj/"
+ "c:/home/"
+ "c:/home/devel/clojure/ads-mockup/src/ads_mockup/"
+ "c:/devel/Clojure/ccc01/src/ccc01/"
+ "c:/devel/Java/LWJGL/HelloLWJGL3/src/example/"
+ "c:/Recovery/e5ecf6c0-5a62-11e2-88a6-e8e84e616130/"
+ "c:/devel/Clojure/project1/src/project1/"
+ "c:/devel/Clojure/cheshire-cat/src/cheshire_cat/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init.el"
+ "inicio.hs"
+ "haskell-font-lock.el"
+ "hw.scala"
+ "carding.md"
+ "service.clj"
+ "ads.clj"
+ "Vaadin Best Practices.html"
+ "Apache Tomcat Http Connector Example.html"
+ "repl.bat"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("c:/Lisp/home/.emacs.d/" (22591 3417 0 0) "vendor/" "themes/" "recentf" "init.el" "ido.last" "elpa/" "auto-save-list/" "ac-comphist.dat" "../" "./")
+
+ ("c:/Lisp/home/" (22591 3417 0 0) "_viminfo" "xaa" "tmp/" "repo/" "java-debian.org" "Instalar arch.org" "es.pws" "es.prepl" "en.pws" "en.prepl" "emacs-keys.txt" "edb_pgjdbc.exe" "arch.txt" "aprender-clojure.org" ".ssh/" ".smex-items" ".lein/" ".idlerc/" ".gitconfig" ".gem/" ".fontconfig/" ".emacs.d/" ".cache/" ".bash_history" "../" "./")
+
+ ("c:/Lisp/home/.emacs.d/elpa/haskell-mode-16.1/" (22590 58956 0 0) "w3m-haddock.elc" "w3m-haddock.el" "NEWS" "logo.svg" "inf-haskell.elc" "inf-haskell.el" "highlight-uses-mode.elc" "highlight-uses-mode.el" "haskell.elc" "haskell.el" "haskell-utils.elc" "haskell-utils.el" "haskell-unicode-input-method.elc" "haskell-unicode-input-method.el" "haskell-string.elc" "haskell-string.el" "haskell-sort-imports.elc" "haskell-sort-imports.el" "haskell-session.elc" "haskell-session.el" "haskell-sandbox.elc" "haskell-sandbox.el" "haskell-repl.elc" "haskell-repl.el" "haskell-process.elc" "haskell-process.el" "haskell-presentation-mode.elc" "haskell-presentation-mode.el" "haskell-navigate-imports.elc" "haskell-navigate-imports.el" "haskell-move-nested.elc" "haskell-move-nested.el" "haskell-modules.elc" "haskell-modules.el" "haskell-mode.info" "haskell-mode.elc" "haskell-mode.el" "haskell-mode-pkg.el" "haskell-mode-autoloads.el" "haskell-menu.elc" "haskell-menu.el" "haskell-load.elc" "haskell-load.el" "haskell-lexeme.elc" "haskell-lexeme.el" "haskell-interactive-mode.elc" "haskell-interactive-mode.el" "haskell-indentation.elc" "haskell-indentation.el" "haskell-indent.elc" "haskell-indent.el" "haskell-hoogle.elc" "haskell-hoogle.el" "haskell-ghc-support.elc" "haskell-ghc-support.el" "haskell-font-lock.elc" "haskell-font-lock.el" "haskell-doc.elc" "haskell-doc.el" "haskell-decl-scan.elc" "haskell-decl-scan.el" "haskell-debug.elc" "haskell-debug.el" "haskell-customize.elc" "haskell-customize.el" "haskell-completions.elc" "haskell-completions.el" "haskell-complete-module.elc" "haskell-complete-module.el" "haskell-compile.elc" "haskell-compile.el" "haskell-compat.elc" "haskell-compat.el" "haskell-commands.elc" "haskell-commands.el" "haskell-collapse.elc" "haskell-collapse.el" "haskell-cabal.elc" "haskell-cabal.el" "haskell-c2hs.elc" "haskell-c2hs.el" "haskell-align-imports.elc" "haskell-align-imports.el" "ghci-script-mode.elc" "ghci-script-mode.el" "ghc-core.elc" "ghc-core.el" "dir" "../" "./")
+
+ ("c:/Lisp/home/.emacs.d/elpa/" (22590 59034 0 0) "yasnippet-0.10.0.signed" "yasnippet-0.10.0/" "ws-butler-readme.txt" "with-editor-2.5.7/" "web-mode-14/" "spinner-1.7.1.signed" "spinner-1.7.1/" "smex-3.0/" "smartparens-1.7.1/" "seq-2.16.signed" "seq-2.16/" "s-1.11.0/" "queue-0.1.1.signed" "queue-0.1.1/" "projectile-0.14.0/" "popup-0.5.3/" "pkg-info-0.6/" "peg-0.6/" "paredit-24/" "multiple-cursors-1.4.0/" "markdown-mode-2.1/" "magit-popup-2.8.0/" "magit-2.8.0/" "inflections-2.3/" "ido-vertical-mode-0.1.6/" "ido-ubiquitous-3.14/" "ido-completing-read+-3.14/" "hydra-0.13.6/" "hl-todo-20151025.1220/" "highlight-parentheses-1.1.0/" "hi2-1.0/" "helm-swoop-1.7.2/" "helm-core-2.1.0/" "helm-2.1.0/" "haskell-mode-16.1/" "gnupg/" "git-commit-2.8.0/" "flycheck-haskell-0.8/" "flycheck-30/" "flx-ido-0.6.1/" "flx-0.6.1/" "expand-region-0.10.0/" "epl-0.8/" "edn-1.1.2/" "dash-2.13.0/" "company-0.9.0.signed" "company-0.9.0/" "clojure-mode-extra-font-locking-5.5.2/" "clojure-mode-5.5.2/" "cljr-helm-0.11/" "clj-refactor-2.2.0/" "cider-0.13.0/" "async-1.9.signed" "async-1.9/" "archives/" "../" "./")
+
+ ("c:/devel/haskell/" (22590 62701 0 0) "inicio.hs" "../" "./")
+
+ ("c:/devel/" (22590 59302 0 0) "WebFControl/" "sigec14-antes limpieza.rar" "sigec14 - antes version perla.rar" "sigec14/" "scala/" "ring.wiki/" "racket/" "perlaairlines/" "perla original.rar" "perla original/" "microsatas-certificado.p12" "Licencia Savannah.rar" "Java/" "Haxe/" "haskell/" "go/" "compile_results.log" "Clojure/" "C++/" "As3/" "ANTES UPDATE 23-07-2013.rar" "00-Design/" "../" "./")
+
+ ("c:/devel/scala/testsbt/" (22583 14960 0 0) "target/" "hw.scala" "../" "./")
+
+ ("c:/devel/scala/" (22583 14850 0 0) "testScala/" "testsbt/" ".metadata/" "../" "./")
+
+ ("c:/Users/Sistemas/Downloads/" (22547 21356 0 0) "~$mas pendientes en Jhipster - 20160914.docx" "wtf-tattoos-1.jpg" "Tiësto feat. Tegan And Sara - Feel It In My Bones [720p].mp4" "The xx - VCR [720p].mp4" "tests-webservices/" "scala-SDK-4.4.1-vfinal-2.11-win32.win32.x86.zip" "scala-2.11.8.msi" "sbt-0.13.12.msi" "Rich Hickey - Simple_Made_Easy/" "OMEGA - Tu Si Quieres, Tu No Quieres (Official Video HD) [360p].webm" "Lapto-VIT-procesador-Intel-core-i5-modelo-P-20140913091255.jpg" "Ishayas-Curso Y Tecnicas Avanzadas 1 A La 20.pdf" "Ipod/" "Funny-crazy-face-tattoos-6.jpg" "Fuego feat. Omega El Fuerte undefinedSuper Estrellaundefined (Official Video) [144p].3gp" "Fuego feat. Omega El Fuerte Super Estrella.webm" "Foo Fighters - The Pretender [360p].webm" "Folder.jpg" "figwheel/" "emacs-for-clojure-book1.zip" "emacs-25.1-i686-w64-mingw32.zip" "dopewars-1.5.12.exe" "desktop.ini" "Consolas font.exe" "clojuredocs/" "clojure-workshop/" "Clojure Recipes Free Sample.pdf" "cljs.jar" "ch.png" "carding.md" "BuildFunThigs/" "AlbumArtSmall.jpg" "04 Productive Emacs (CIDER) Debugging.mp4" "../" "./")
+
+ ("c:/Lisp/emacs-24.5/" (22241 29889 0 0) "var/" "share/" "libexec/" "bin/" "../" "./")
+
+ ("c:/Lisp/emacs-24.5/bin/" (21827 21370 0 0) "runemacs.exe" "libXpm.dll" "grep-changelog" "etags.exe" "emacsclientw.exe" "emacsclient.exe" "emacs.exe" "emacs-24.5.exe" "ebrowse.exe" "ctags.exe" "addpm.exe" "../" "./")
+
+ ("c:/Users/" (21015 49181 0 0) "Sistemas/" "Public/" "desktop.ini" "Default User/" "Default/" "All Users/" "Administrator/" "../" "./")
+
+ ("c:/Users/Sistemas/" (22543 45008 0 0) "__ng3d.lock" "VirtualMachines/" "VirtualBox VMs/" "vimfiles/" "VideoTuts/" "Videos/" "vaadin.charts.developer.license" "Utiles-Perla/" "Utiles/" "Tracing/" "Torrents/" "tempconfig.properties" "SendTo/" "Searches/" "Saved Games/" "Respaldo/" "Reciente/" "random.dat" "Plantillas/" "Pictures/" "ntuser.ini" "NTUSER.DAT{b046afaf-251d-11e6-94d1-4487fc935614}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{b046afaf-251d-11e6-94d1-4487fc935614}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{b046afaf-251d-11e6-94d1-4487fc935614}.TM.blf" "NTUSER.DAT{6cced2f1-6e01-11de-8bed-001e0bcd1824}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{6cced2f1-6e01-11de-8bed-001e0bcd1824}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{6cced2f1-6e01-11de-8bed-001e0bcd1824}.TM.blf" "NTUSER.DAT{1d139f97-074d-11e6-94de-4487fc935614}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{1d139f97-074d-11e6-94de-4487fc935614}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{1d139f97-074d-11e6-94de-4487fc935614}.TM.blf" "NTUSER.DAT{1b8fb028-1200-11e6-9531-4487fc935614}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{1b8fb028-1200-11e6-9531-4487fc935614}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{1b8fb028-1200-11e6-9531-4487fc935614}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "Music/" "mm.cfg" "Mis documentos/" "Menú Inicio/" "Localizable.strings" "Links/" "Last session Sistemas.prj" "Juegos/" "JDecUserPreferences.txt" "InstallAnywhere/" "Impresoras/" "IdeaProjects/" "Google Drive/" "Favorites/" "Estudios/" "Entorno de red/" "dwhelper/" "Downloads/" "Documents/" "Desktop/" "Datos de programa/" "Cookies/" "Contacts/" "Configuración local/" "Application Data/" "AppData/" "Adobe Flash Builder 4.6/" ".yo-rc-global.json" ".vscode/" ".VirtualBox/" ".vim/" ".vaadin.designer.developer.license" ".v8flags.4.5.103.36.Sistemas.json" ".tooling/" ".swt/" ".squirrel-sql/" ".scala_history" ".scalaide/" ".sbt/" ".profile/" ".p2/" ".netbeans-registration/" ".netbeans-derby/" ".netbeans/" ".nbprofiler/" ".nbi/" ".m2.rar" ".m2/" ".lein/" ".keystore" ".karaf/" ".jmc/" ".java/" ".jade/" ".ivy2/" ".IntelliJIdea2016.2/" ".IdeaIC15/" ".gradle/" ".gimp-2.8/" ".gfclient/" ".gem/" ".executequery/" ".eclipse/" ".config/" ".codeintel/" ".cache/" ".bash_history" ".asdm/" ".artofillusion/" ".appletviewer" ".android/" "../" "./")
+
+ ("c:/Users/Sistemas/Documents/" (22502 44996 0 0) "word/" "Wondershare/" "wonder/" "Visual Studio 2008/" "visio/" "Virtual Machines/" "Viajero Frecuente/" "vCards/" "usuarios de correo 05-01-2016.txt" "Txt/" "Telefonia/" "SQL Server Management Studio Express/" "SQL/" "solicitud pago dominio perlaairlines.com.docx" "Smith Micro/" "SmartDraw/" "SavedGames/" "Rogue's Tale/" "respaldo sistema vuelos antes de eliminar wfcvolados/" "Publisher/" "Processing/" "Power Point/" "planilla seguro/" "pgadmin.log" "Peso Balance/" "Personal/" "Perla/" "Pdf/" "NetBeansProjects/" "Nds/" "Navicat/" "My Kindle Content/" "My Games/" "My Cheat Tables/" "Mis vídeos/" "Mis imágenes/" "Mipony/" "Mi música/" "MetroEthernet/" "Manuales/" "IATA/" "GaleBackup/" "Excell/" "desktop.ini" "Default.rdp" "Curso de Kiu/" "Costos/" "Cantina/" "Bronze/" "blume-guia-completa-de-las-tecnicas-culinarias.pdf" "BlackBerry/" "backups Perla/" "asa/" "AGK/" "ADOM/" "../" "./")
+
+ ("c:/Users/Sistemas/Documents/Personal/" (22469 40409 0 0) "wonder/" "Vivienda/" "Vacaciones/" "Una/" "TarjetaCredito/" "solicitud vivienda para imprimir/" "Seniat/" "RIF/" "Res Emerys/" "Recibos/" "PRESUPUESTO-PARA-AMPLIACION-O-REMODELACION-DE-VIVIENDA.xls" "PRESUPUESTO-PARA-AMPLIACION-O-REMODELACION-DE-VIVIENDA.pdf" "pre/" "PODER ESPECIAL.docx" "paypal/" "Passwords/" "Pasaporte/" "partida nacimiento Jesus Boadas.png" "partida nacimiento Jesus Boadas.pdf" "Partida de defuncion Doris Paredes.pdf" "Pago Deudas/" "Oraciones/" "FOTO/" "Facturas amazon 2014/" "Facturas/" "donacion/" "Curriculo/" "cuenta pedvel.txt" "comunicado anselmo.docx" "Cedulas/" "carta mata figueroa.pdf" "carta mata figueroa tanque.pdf" "Carlys/" "calendario bancario 2016.pdf" "Cadivi/" "bancos/" "Automovil/" "anticipos/" "ANTICIPO DE PRESTACIONES SOCIALES 103.pdf" "Acta defuncion Doris Paredes 02.png" "Acta defuncion Doris Paredes 01.png" "../" "./")
+
+ ("c:/Users/Sistemas/Documents/Personal/Curriculo/" (22546 162 0 0) "~$CV-esp.doc" "~$CV-Eng.docx" "Vaadin-Programming-Cookbook.png" "Vaadin Programming CookBook.pdf" "Vaadin Programming Cookbook.jpg" "Resumen Curricular - Jesus Boadas.pdf" "presentation-letter.pdf" "Jesus Boadas.png" "foto2.jpg" "foto.jpg" "email-job.txt" "CV.txt" "CV-Ita.pdf" "CV-Ita.docx" "CV-Ita.doc" "CV-esp.pdf" "CV-esp.doc" "CV-ENG.txt" "CV-Eng.pdf" "CV-Eng.docx" "cover-letter.rtf" "cover-letter.docx" "../" "./")
+
+ ("c:/devel/Clojure/ads-mockup-master/src/ads_mockup/" (22545 6314 0 0) "service.clj" "server.clj" "ads_data.clj" "ads.clj" "../" "./")
+
+ ("c:/devel/Clojure/ads-mockup-master/src/" (22534 4428 0 0) "ads_mockup/" "../" "./")
+
+ ("c:/devel/Clojure/ads-mockup-master/" (22534 15446 0 0) "test/" "target/" "src/" "resources/" "README.md" "project.clj" "logs/" "Java/" "Dockerfile" "config/" "Capstanfile" ".gitignore" "../" "./")
+
+ ("c:/freelance/JavaCodeGeeks/30 Vaadin Best Practices/" (22436 43249 0 0) "VaadinBestPractices.zip" "VaadinBestPractices/" "Vaadin Best Practices.html" "source-images/" "orig/" "docs/" "../" "./")
+
+ ("c:/freelance/JavaCodeGeeks/41 Apache Tomcat Http Connector Example/" (22544 47020 0 0) "static.zip" "img-src/" "Apache Tomcat Http Connector Example.html" ".#Apache Tomcat Http Connector Example.html" "../" "./")
+
+ ("c:/freelance/JavaCodeGeeks/" (22544 46817 0 0) "templates.txt" "pagos/" "JavaCodeGeeks-watermark.png" "green-arrow.png" "42 Apache Tomcat Best Practices/" "41 Apache Tomcat Http Connector Example/" "40 Apache Tomcat Interview Questions and Answers/" "39 How to Upgrade Apache Tomcat/" "38 Apache Tomcat Manager Tutorial/" "37 Apache Tomcat Error Troubleshooting Tutorial/" "36 Difference Between Apache Web Server and Tomcat/" "35 Apache Tomcat Connector Example/" "34 How to Start and Restart Tomcat Server as a Service/" "33 How to Install Tomcat on Ubuntu Linux/" "32 Vaadin JQuery Example/" "31 Vaadin Maps Example/" "30 Vaadin Best Practices/" "29 Vaadin Window Example/" "28 Vaadin Menu Example/" "27 Vaadin Listselect Example/" "26 Netbeans Vaadin Example/" "25 Vaadin Https Setup Example/" "24 Vaadin CustomLayout/" "23 Vaadin Visual Designer Example/" "22 Vaadin Data Binding/" "21 Vaadin Application/" "20 Vaadin REST/" "19 Vaadin Validators/" "18 Vaadin Layouts/" "17 Vaadin Architecture/" "16 Vaadin Container/" "15 Vaadin Button/" "14 Vaadin Server Push/" "13 Vaadin Login/" "12 Vaadin widgetset/" "11 VaadinTreeTable/" "10 Vaadin Charts/" "09 VaadinForm Example/" "08 Vaadin GridLayout Example/" "07 Vaadin custom component example/" "06 Vaadin Calendar Example/" "05 Vaadin Maven Example/" "04 Vaadin Combobox Example/" "03 Vaadin OSGi Example/" "02 LWJGL TUTORIAL/" "01 Vaadin Table/" "00 Infinite Canvas/" "00 Documents/" "../" "./")
+
+ ("c:/freelance/JavaCodeGeeks/42 Apache Tomcat Best Practices/" (22544 46842 0 0) "Apache Tomcat Best Practices.html" "../" "./")
+
+ ("c:/devel/Clojure/hello-clojurescript/" (22543 41529 0 0) "watch.clj" "watch.bat" "src/" "repl.clj" "out/" "index.html" "compile.bat" "cljs.jar" "build.clj" "../" "./")
+
+ ("c:/devel/Clojure/hello-clojurescript/out/" (22543 36885 0 0) "main.js" "hello_clojurescript/" "goog/" "cljs/" "../" "./")
+
+ ("c:/devel/Clojure/hello-clojurescript/src/hello_clojurescript/" (22543 37116 0 0) "core.cljs" "../" "./")
+
+ ("c:/devel/Clojure/hello-clojurescript/src/" (22543 29188 0 0) "hello_clojurescript/" "../" "./")
+
+ ("c:/devel/Clojure/" (22543 29105 0 0) "wonderland/" "untitled/" "trivia-master/" "trivia/" "tictactoe/" "test01/" "test-pedestar-service/" "test-pedestar-app/" "test-pedestal/" "test-graphics/" "test-game/" "test-desktop/" "test-database/" "test-clojurescript/" "test/" "startinclojure/" "snake-talk/" "ring-hello-world/" "project1/" "myapp-reagent/" "mokepon/" "lighttable/" "ironclad/" "hello-pedestal/" "hello-clojurescript/" "guestbook/" "clojuredocs/" "clojure-noob/" "cheshire-cat/" "ccc01/" "ads-mockup-master/" ".metadata/" "../" "./")
+
+ ("c:/devel/Clojure/trivia/resources/public/" (22542 32445 0 0) "js/" "index.html" "../" "./")
+
+ ("c:/devel/Clojure/trivia/src/cljs/trivia/" (22542 31988 0 0) "core.cljs" "../" "./")
+
+ ("c:/devel/Clojure/trivia/" (22542 30768 0 0) "test/" "target/" "src/" "resources/" "project.clj" "Java/" "figwheel_server.log" ".nrepl-port" ".cljs_rhino_repl/" "../" "./")
+
+ ("c:/devel/Clojure/trivia/resourecs/public/js/compiled/out/" (22542 30663 0 0) "trivia/" "reagent/" "react.inc.js" "react-dom.inc.js" "react-dom-server.inc.js" "goog/" "figwheel/" "F81B2CC.js" "clojure/" "cljs_deps.js" "cljs/" ".figwheel-compile-stamp" "../" "./")
+
+ ("c:/devel/Clojure/trivia/resourecs/public/js/compiled/" (22542 30511 0 0) "out/" "../" "./")
+
+ ("c:/devel/Clojure/trivia/resourecs/public/js/" (22542 30511 0 0) "compiled/" "../" "./")
+
+ ("c:/devel/Clojure/trivia/resourecs/public/" (22542 30511 0 0) "js/" "../" "./")
+
+ ("c:/devel/Clojure/trivia/resourecs/" (22542 30511 0 0) "public/" "../" "./")
+
+ ("c:/devel/Clojure/trivia-master/src/clj/trivia/" (22536 384 0 0) "webserver.clj" "system.clj" "postgresql_db.clj" "migrations.clj" "in_memory_db.clj" "db_protocol.clj" "core.clj" "connectionpool.clj" "../" "./")
+
+ ("c:/devel/Clojure/trivia-master/src/clj/" (22536 384 0 0) "trivia/" "../" "./")
+
+ ("c:/devel/Clojure/trivia-master/" (22542 28644 0 0) "test/" "target/" "src/" "resources/" "README.md" "project.clj" "profiles.clj" "Procfile" "LICENSE" "Java/" "env/" "Dockerfile" "docker-compose.yml" "bower.json" "assets/" "app.json" ".nrepl-port" ".lein-env" ".gitlab-ci.yml" ".gitignore" ".cljs_rhino_repl/" ".bowerrc" "../" "./")
+
+ ("c:/devel/Clojure/trivia-master/src/cljs/trivia/" (22536 384 0 0) "views.cljs" "subs.cljs" "events.cljs" "db.cljs" "core.cljs" "../" "./")
+
+ ("c:/devel/Clojure/trivia-master/src/cljs/" (22536 384 0 0) "trivia/" "../" "./")
+
+ ("c:/devel/Clojure/trivia-master/src/" (22536 384 0 0) "cljs/" "clj/" "../" "./")
+
+ ("c:/devel/Clojure/trivia/resources/public/js/compiled/" (22542 26600 0 0) "../" "./")
+
+ ("c:/devel/Clojure/trivia/resources/public/js/" (22542 26603 0 0) "compiled/" "../" "./")
+
+ ("c:/devel/Clojure/trivia/resources/" (22540 52885 0 0) "public/" "../" "./")
+
+ ("c:/devel/Clojure/trivia/src/cljs/" (22540 62159 0 0) "trivia/" "../" "./")
+
+ ("c:/devel/Clojure/trivia/src/" (22540 52830 0 0) "cljs/" "clj/" "../" "./")
+
+ ("c:/home/" (22541 29626 0 0) "emacs-keys.txt" "emacs-25.1-i686-w64-mingw32.zip" "emacs-25.1/" "emacs-24.5/" "devel/" "aprender-clojure.org" ".smex-items" ".lein/" ".emacs.d.rar" ".emacs.d/" "../" "./")
+
+ ("c:/home/devel/clojure/trivia/resources/public/" (22541 29186 0 0) "index.html" "../" "./")
+
+ ("c:/home/devel/clojure/trivia/target/" (22540 59589 0 0) "base+system+user+dev/" "../" "./")
+
+ ("c:/home/devel/clojure/trivia/resources/" (22540 54685 0 0) "public/" "../" "./")
+
+ ("c:/home/devel/clojure/trivia/src/cljs/trivia/" (22541 28507 0 0) "core.cljs" "../" "./")
+
+ ("c:/home/devel/clojure/trivia/src/cljs/" (22540 63959 0 0) "trivia/" "../" "./")
+
+ ("c:/home/devel/clojure/trivia/" (22540 64428 0 0) "test/" "target/" "src/" "resources/" "project.clj" ".nrepl-port" ".cljs_rhino_repl/" "../" "./")
+
+ ("c:/home/devel/clojure/trivia/src/clj/" (22540 60575 0 0) "trivia/" "../" "./")
+
+ ("c:/home/devel/clojure/trivia/src/clj/trivia/" (22540 63331 0 0) "core.clj" ".#core.clj" "../" "./")
+
+ ("c:/home/devel/clojure/trivia/src/" (22540 54630 0 0) "cljs/" "clj/" "../" "./")
+
+ ("c:/home/.emacs.d/" (22540 51208 0 0) "vendor/" "themes/" "recentf" "init.el" "ido.last" "elpa/" "auto-save-list/" "ac-comphist.dat" "../" "./")
+
+ ("c:/home/devel/clojure/test/src/test/" (22540 52884 0 0) "second.clj" "core.clj" "../" "./")
+
+ ("c:/home/devel/clojure/" (22540 54547 0 0) "trivia/" "testluminus/" "test-w10/" "test-pedestal/" "test/" "project1/" "practice-middleware/" "hello-pedestal/" "guestbook/" "ads-mockup.rar" "ads-mockup/" "../" "./")
+
+ ("c:/home/devel/clojure/test/test/" (22212 56538 0 0) "../" "./")
+
+ ("c:/home/devel/clojure/ads-mockup/src/ads_mockup/" (22532 19475 0 0) "service.clj" "server.clj" "ads_data.clj" "ads.clj" "../" "./")
+
+ ("c:/home/devel/clojure/ads-mockup/src/" (22525 53075 0 0) "ads_mockup/" "../" "./")
+
+ ("c:/home/devel/clojure/ads-mockup/" (22538 57595 0 0) "test/" "target/" "src/" "resources/" "README.md" "project.clj" "logs/" "Java/" "Dockerfile" "delivery-jesus-boadas.md" "config/" "Capstanfile" ".nrepl-port" ".gitignore" ".git/" "../" "./")
+
+ ("c:/home/devel/clojure/test/src/" (22212 56513 0 0) "test/" "../" "./")
+
+ ("c:/home/devel/clojure/test/" (22508 15201 0 0) "test.iml" "test/" "target/" "src/" "resources/" "README.md" "project.clj" "dev-resources/" ".nrepl-port" ".lein-repl-history" ".lein-failures" ".idea/" ".gitignore" "../" "./")
+
+ ("c:/home/devel/" (22521 63243 0 0) "spring/" "kotlin/" "java/" "clojure/" "../" "./")
+
+ ("c:/home/emacs-25.1/" (22538 56063 0 0) "var/" "share/" "libexec/" "bin/" "../" "./")
+
+ ("c:/home/emacs-25.1/bin/" (22493 62702 0 0) "runemacs.exe" "libXpm-nox4.dll" "etags.exe" "emacsclientw.exe" "emacsclient.exe" "emacs.exe" "emacs-25.1.exe" "ebrowse.exe" "ctags.exe" "addpm.exe" "../" "./")
+
+ ("c:/devel/Clojure/ccc01/src/ccc01/" (22213 58685 0 0) "core.clj" "../" "./")
+
+ ("c:/devel/Clojure/ccc01/src/" (22213 58685 0 0) "ccc01/" "../" "./")
+
+ ("c:/devel/Clojure/ccc01/" (22214 1639 0 0) "test/" "target/" "src/" "resources/" "README.md" "project.clj" "LICENSE" "doc/" "bin/" ".settings/" ".project" ".hgignore" ".gitignore" ".classpath" "../" "./")
+
+ ("c:/devel/Java/LWJGL/HelloLWJGL3/src/example/" (22163 50903 0 0) "HelloLWJGL3.java" "../" "./")
+
+ ("c:/devel/Java/LWJGL/HelloLWJGL3/src/" (22163 50359 0 0) "example/" "../" "./")
+
+ ("c:/devel/Java/LWJGL/HelloLWJGL3/" (22163 50172 0 0) "src/" "bin/" ".settings/" ".project" ".classpath" "../" "./")
+
+ ("c:/devel/Java/LWJGL/" (22484 29683 0 0) "Timing-lwjgl/" "testJoGL/" "test-crossover/" "SolarSistem/" "Solar/" "SlickTests/" "SlickLights/" "Slick-Experiments/" "RedBook/" "QuadExample/" "pwnPr3d-code-master.zip" "pwnPr3d-code-master/" "Occlussion/" "lwjgl-test/" "Lwjgl-Experiments/" "Layer-3 ver 2,0.pdf" "HelloLWJGL3/" "HelloLWJGL/" "FixUpwork.zip" "feedback-pwnpr3d.txt" "crossover-tests/" "CodingUniverse/" "airport-weather-java.zip" "airport-weather-java/" ".recommenders/" ".metadata/" "../" "./")
+
+ ("c:/devel/Java/" (22490 47166 0 0) "skeleton-web-services/" "RemoteSystemsTempFiles/" "LWJGL/" "jettyhttp-anon.psf" "JEE/" "JavaFX/" "Java2D/" "eclipse-luna/" ".recommenders/" ".metadata/" "../" "./")
+
+ ("c:/Recovery/e5ecf6c0-5a62-11e2-88a6-e8e84e616130/" (20717 34227 0 0) "Winre.wim" "boot.sdi" "../" "./")
+
+ ("c:/Recovery/" (20717 34227 0 0) "e5ecf6c0-5a62-11e2-88a6-e8e84e616130/" "../" "./")
+
+ ("c:/devel/Clojure/project1/src/project1/" (22520 1862 0 0) "route.clj" "middleware.clj" "html.clj" "handlers.clj" "core.clj" "blog.clj" ".#blog.clj" "../" "./")
+
+ ("c:/devel/Clojure/project1/src/" (22500 42317 0 0) "project1/" "../" "./")
+
+ ("c:/devel/Clojure/project1/" (22519 62747 0 0) "test.txt" "test/" "target/" "src/" "resources/" "request-headers.txt" "README.md" "project.clj" "LICENSE" "Java/" "doc/" "CHANGELOG.md" ".nrepl-port" ".hgignore" ".gitignore" "../" "./")
+
+ ("c:/devel/Clojure/cheshire-cat/src/cheshire_cat/" (22423 41046 0 0) "handler.clj" "../" "./")
+
+ ("c:/devel/Clojure/cheshire-cat/src/" (22415 45915 0 0) "cheshire_cat/" "../" "./")
+
+ ("c:/devel/Clojure/cheshire-cat/" (22423 32944 0 0) "test/" "target/" "src-cljs/" "src/" "resources/" "repl/" "README.md" "project.clj" "out/" ".nrepl-port" ".gitignore" ".cljs_rhino_repl/" "../" "./")
+
+ ("c:/Lisp/emacs-25.1/" (22538 13266 0 0) "var/" "share/" "libexec/" "bin/" "../" "./")
+
+ ("c:/Lisp/" (22538 13281 0 0) "home/" "emacs-25.1-i686-w64-mingw32.zip" "emacs-25.1/" "emacs-24.5/" "Aspell/" "../" "./")
+
+ ("c:/Lisp/emacs-25.1/bin/" (22493 60902 0 0) "runemacs.exe" "libXpm-nox4.dll" "etags.exe" "emacsclientw.exe" "emacsclient.exe" "emacs.exe" "emacs-25.1.exe" "ebrowse.exe" "ctags.exe" "addpm.exe" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
