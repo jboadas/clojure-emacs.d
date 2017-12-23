@@ -2,6 +2,11 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/jboadas/devel/clojure/return-of-the-mac/src/" . "return_of_the_mac/")
+ ("/home/jboadas/devel/clojure/return-of-the-mac/" . "src/")
+ ("/home/jboadas/devel/clojure/" . "return-of-the-mac/")
+ ("/home/jboadas/devel/" . "clojure/")
+ ("/home/jboadas/" . "devel/")
  ("c:/Lisp/home/.emacs.d/elpa/" . "haskell-mode-16.1/")
  ("c:/Lisp/home/.emacs.d/" . "elpa/")
  ("c:/devel/scala/" . "testsbt/")
@@ -58,6 +63,8 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/jboadas/devel/clojure/return-of-the-mac/src/return_of_the_mac/"
+ "/home/jboadas/.emacs.d/"
  "c:/Lisp/home/.emacs.d/"
  "c:/devel/haskell/"
  "c:/Lisp/home/.emacs.d/elpa/haskell-mode-16.1/"
@@ -91,6 +98,7 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "core.clj"
  "init.el"
  "inicio.hs"
  "haskell-font-lock.el"
@@ -100,11 +108,24 @@
  "ads.clj"
  "Vaadin Best Practices.html"
  "Apache Tomcat Http Connector Example.html"
- "repl.bat"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/jboadas/devel/clojure/return-of-the-mac/src/return_of_the_mac/" (23102 46844 502578 617000) ".#core.clj" "core.clj" "../" "./")
+
+ ("/home/jboadas/devel/clojure/return-of-the-mac/src/" (23102 46286 854663 997000) "return_of_the_mac/" "../" "./")
+
+ ("/home/jboadas/devel/clojure/return-of-the-mac/" (23102 46286 857997 379000) "project.clj" "LICENSE" "src/" "doc/" "resources/" "README.md" ".hgignore" ".gitignore" "CHANGELOG.md" "../" "./" "test/")
+
+ ("/home/jboadas/devel/clojure/" (23102 46286 847997 235000) "return-of-the-mac/" "../" "./")
+
+ ("/home/jboadas/devel/" (23102 46239 367314 254000) "python/" "clojure/" "typescript/" "../" "./")
+
+ ("/home/jboadas/" (23102 46415 859845 531000) ".ICEauthority" ".icons/" ".jumpfm/" ".m2/" ".gitconfig" "Videos/" ".cache/" ".xsession-errors.old" ".viminfo" "Documents/" ".npm/" "Pictures/" ".thumbnails/" ".ocp/" ".atom/" "Music/" "Public/" ".bash_logout" ".gimp-2.8/" ".mozilla/" ".nightcode.core/" ".gksu.lock" ".Xauthority" ".emacs.d/" ".elm/" "devel/" ".ocamlinit" ".ff-theme-util_1strun" ".vimrc" ".gnupg/" ".config/" ".pylint.d/" ".pylintrc" ".ssr/" ".bashrc" "Desktop/" ".boot/" ".java/" "Google Drive/" ".pki/" ".cargo/" ".xsession-errors" "Dic23-3.avi" "python.emacs.d.tar.gz" ".vim/" ".nuget/" ".Xresources" ".npmrc" ".dmrc" ".esd_auth" "package-lock.json" ".alm/" ".dir_colors" ".putty/" ".xprofile" ".bash_profile" ".smex-items" "Downloads/" ".lein/" ".navicat64/" ".local/" ".extend.bashrc" ".xinitrc" ".ssh/" ".bash_history" "../" ".extend.xinitrc" "navicat120_mariadb_en_x64/" ".thunderbird/" ".Xclients" ".opam/" "./" "Templates/" ".xsession" ".profile" ".python_history" ".purple/" ".guayadeque/")
+
+ ("/home/jboadas/.emacs.d/" (23102 46332 45312 655000) "ac-comphist.dat" "themes/" "ido.last" ".git/" "recentf" "auto-save-list/" "elpa/" "README.md" "vendor/" "init.el" "../" "./")
+
  ("c:/Lisp/home/.emacs.d/" (22591 3417 0 0) "vendor/" "themes/" "recentf" "init.el" "ido.last" "elpa/" "auto-save-list/" "ac-comphist.dat" "../" "./")
 
  ("c:/Lisp/home/" (22591 3417 0 0) "_viminfo" "xaa" "tmp/" "repo/" "java-debian.org" "Instalar arch.org" "es.pws" "es.prepl" "en.pws" "en.prepl" "emacs-keys.txt" "edb_pgjdbc.exe" "arch.txt" "aprender-clojure.org" ".ssh/" ".smex-items" ".lein/" ".idlerc/" ".gitconfig" ".gem/" ".fontconfig/" ".emacs.d/" ".cache/" ".bash_history" "../" "./")

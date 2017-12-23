@@ -268,7 +268,7 @@
  '(ispell-program-name "C:/lisp/aspell/bin/aspell.exe")
  '(package-selected-packages
    (quote
-    (magit projectile smex flx-ido ido-ubiquitous ido-vertical-mode helm-swoop web-mode smartparens markdown-mode hl-todo highlight-parentheses helm expand-region company clojure-mode-extra-font-locking cljr-helm))))
+    (magit projectile smex flx-ido ido-completing-read+ ido-vertical-mode helm-swoop web-mode smartparens markdown-mode hl-todo highlight-parentheses helm expand-region company clojure-mode-extra-font-locking cljr-helm))))
 
 
 (ido-mode 1)
@@ -278,7 +278,7 @@
 (ido-vertical-mode 1)
 (setq ido-vertical-define-keys 'C-n-C-p-up-down-left-right)
 
-(require 'ido-ubiquitous)
+(require 'ido-completing-read+)
 (ido-ubiquitous-mode 1)
 
 (require 'flx-ido)
