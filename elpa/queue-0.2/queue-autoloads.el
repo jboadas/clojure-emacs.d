@@ -1,9 +1,9 @@
 ;;; queue-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-(add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
+(add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "queue" "queue.el" (23102 46185 776541 577000))
+;;;### (autoloads nil "queue" "queue.el" (23115 40171 745389 273000))
 ;;; Generated autoloads from queue.el
 
 (defalias 'make-queue 'queue-create "\

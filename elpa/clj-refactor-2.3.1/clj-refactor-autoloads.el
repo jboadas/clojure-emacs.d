@@ -1,10 +1,10 @@
 ;;; clj-refactor-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-(add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
+(add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "clj-refactor" "clj-refactor.el" (23102 46266
-;;;;;;  227700 807000))
+;;;### (autoloads nil "clj-refactor" "clj-refactor.el" (23115 40234
+;;;;;;  94047 465000))
 ;;; Generated autoloads from clj-refactor.el
 
 (autoload 'cljr-add-keybindings-with-prefix "clj-refactor" "\
@@ -38,7 +38,7 @@ With a prefix act on the cljs part of the ns declaration.
 
 See: https://github.com/clojure-emacs/clj-refactor.el/wiki/cljr-add-require-to-ns
 
-\(fn CLJS\\=\\?)" t nil)
+\(fn CLJS\\?)" t nil)
 
 (autoload 'cljr-add-use-to-ns "clj-refactor" "\
 Add a use statement to the buffer's ns form.
@@ -47,7 +47,7 @@ With a prefix act on the cljs part of the ns declaration.
 
 See: https://github.com/clojure-emacs/clj-refactor.el/wiki/cljr-add-use-to-ns
 
-\(fn CLJS\\=\\?)" t nil)
+\(fn CLJS\\?)" t nil)
 
 (autoload 'cljr-add-import-to-ns "clj-refactor" "\
 Add an import statement to the buffer's ns form.
@@ -56,7 +56,7 @@ With a prefix act on the cljs part of the ns declaration.
 
 See: https://github.com/clojure-emacs/clj-refactor.el/wiki/cljr-add-import-to-ns
 
-\(fn &optional CLJS\\=\\?)" t nil)
+\(fn &optional CLJS\\?)" t nil)
 
 (autoload 'cljr-require-macro "clj-refactor" "\
 Add a require statement for a macro to the ns form in current buffer.
@@ -333,7 +333,7 @@ A mode to keep the clj-refactor keybindings.
 ;;;***
 
 ;;;### (autoloads nil nil ("clj-refactor-compat.el" "clj-refactor-pkg.el")
-;;;;;;  (23102 46266 277701 527000))
+;;;;;;  (23115 40234 224701 730000))
 
 ;;;***
 

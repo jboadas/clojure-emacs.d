@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "edn" "edn.el" (22492 13685 0 0))
+;;;### (autoloads nil "edn" "edn.el" (23115 40193 93614 591000))
 ;;; Generated autoloads from edn.el
 
 (autoload 'edn-time-to-inst "edn" "\

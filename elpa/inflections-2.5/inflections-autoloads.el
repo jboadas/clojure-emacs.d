@@ -1,10 +1,10 @@
 ;;; inflections-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-(add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
+(add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "inflections" "inflections.el" (23102 46215
-;;;;;;  946976 815000))
+;;;### (autoloads nil "inflections" "inflections.el" (23115 40191
+;;;;;;  641599 266000))
 ;;; Generated autoloads from inflections.el
 
 (autoload 'inflection-singularize-string "inflections" "\

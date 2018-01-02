@@ -10,23 +10,36 @@
 (setq package-enable-at-startup nil)
 (package-initialize)
 ;; Instala los paquetes si no han sido instalados
-(unless (package-installed-p 'cider)
-  (package-install 'cider))
-(unless (package-installed-p 'smartparens)
-  (package-install 'smartparens))
 (unless (package-installed-p 'web-mode)
   (package-install 'web-mode))
-;;(unless (package-installed-p 'clj-refactor)
-;;  (package-install 'clj-refactor))
-;; (unless (package-installed-p 'helm)
-;;   (package-install 'helm))
-;; (unless (package-installed-p 'cljr-helm)
-;;   (package-install 'cljr-helm))
-
+(unless (package-installed-p 'ido-vertical-mode)
+  (package-install 'ido-vertical-mode))
+(unless (package-installed-p 'ido-completing-read+)
+  (package-install 'ido-completing-read+))
+(unless (package-installed-p 'flx-ido)
+  (package-install 'flx-ido))
+(unless (package-installed-p 'smex)
+  (package-install 'smex))
+(unless (package-installed-p 'smartparens)
+  (package-install 'smartparens))
+(unless (package-installed-p 'company)
+  (package-install 'company))
+(unless (package-installed-p 'hl-todo)
+  (package-install 'hl-todo))
+(unless (package-installed-p 'highlight-parentheses)
+  (package-install 'highlight-parentheses))
+(unless (package-installed-p 'cider)
+  (package-install 'cider))
+(unless (package-installed-p 'clj-refactor)
+  (package-install 'clj-refactor))
+(unless (package-installed-p 'expand-region)
+  (package-install 'expand-region))
+(unless (package-installed-p 'clojure-mode-extra-font-locking)
+  (package-install 'clojure-mode-extra-font-locking))
 ;;
 ;; UI
 ;;
-;;quita el puto beep
+;;quita el beep
 (setq ring-bell-function 'ignore)
 ;; para que se pueda borrar una region por defecto
 (delete-selection-mode t)
@@ -88,10 +101,7 @@
 ;; elimina el marcador de fin de buffer
 (setq-default indicate-empty-lines nil)
 ;;carga el tema
-;;(load-theme 'deeper-blue)
-(add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
-(add-to-list 'load-path "~/.emacs.d/themes")
-(load-theme 'tomorrow-night-bright t)
+(load-theme 'deeper-blue)
 
 ;; resalta la linea actual del cursor
 (global-hl-line-mode 1)
@@ -103,173 +113,11 @@
 (set-cursor-color "#ffffff")
 ;;personaliza el cursor
 (setq-default cursor-type '(bar . 2))
-;;hace que el cursor deje de parpadear
-;;(blink-cursor-mode -1)
-;; CAMBIA LA FUENTE POR DEFECTO WINDOWS
-;; La fuente CONSOLAS debe estar instalada
-(if (member "Consolas" (font-family-list))
-    (set-face-attribute
-     'default nil :font "Consolas 10"))
-;; CAMBIA LA FUENTE POR DEFECTO LINUX
-;; (if (member "Source Code Pro" (font-family-list))
-;;     (set-face-attribute
-;;      'default nil :font "Source Code Pro 8"))
-;; configuracion de powerline
-;;(add-to-list 'load-path "~/.emacs.d/vendor/powerline")
-;;(require 'powerline)
-;;(powerline-default-theme)
-;; colores personalizados de powerline
-;;(set-face-attribute 'mode-line nil
-;;                     :foreground "light gray"
-;;                     :background "midnight blue"
-;;		     :box nil)
-;;(setq powerline-arrow-shape 'curve)
-
 ;; tamaño inicial de la ventana
 (when window-system (set-frame-size (selected-frame) 80 24))
-;; si cider no esta instalado lo instala
-;;shorcut para expand region
-(global-set-key (kbd "C-=") 'er/expand-region)
-;; activar el modo de resaltado de TODO
-(global-hl-todo-mode t)
-;; autocomplete via company mode
-(add-hook 'after-init-hook 'global-company-mode)
-;;(global-company-mode)
-;; delay de company nil para activarlo manualmente
-(setq company-idle-delay nil)
-;; set the key for company complete
-(global-set-key [C-tab] #'company-complete)
-;;(global-set-key [C-tab] #'hippie-expand)
-;; personaliza el tooltip de company
-;; (require 'color)
-;; (let ((bg (face-attribute 'default :background)))
-;;   (custom-set-faces
-;;    `(company-tooltip ((t (:inherit default :background ,(color-lighten-name bg 7)))))
-;;    `(company-scrollbar-bg ((t (:background ,(color-lighten-name bg 10)))))
-;;    `(company-scrollbar-fg ((t (:background ,(color-lighten-name bg 5)))))
-;;    `(company-tooltip-selection ((t (:inherit font-lock-function-name-face))))
-;;    `(company-tooltip-common ((t (:inherit font-lock-constant-face))))))
-;;highlight-parentheses para todos los buffers
-(define-globalized-minor-mode global-highlight-parentheses-mode
-  highlight-parentheses-mode
-  (lambda ()
-    (highlight-parentheses-mode t)))
-
-(global-highlight-parentheses-mode t)
-;; resalta el parentesis que cierra
-(show-paren-mode 1)
-;; en modo de programacion activa los parentesis de varios colores
-;;(add-hook 'prog-mode-hook 'rainbow-delimiters-mode)
-
-;; colores para los parentesis arcoiris
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(company-scrollbar-bg ((t (:background "#191919"))))
- '(company-scrollbar-fg ((t (:background "#0C0C0C"))))
- '(company-tooltip ((t (:inherit default :background "gray15"))))
- '(company-tooltip-annotation ((t (:inherit default :foreground "#006400" :background "gray15"))))
- '(company-tooltip-annotation-selection ((t (:inherit default :foreground "#00DD00" :background "brown4"))))
- '(company-tooltip-common ((t (:inherit font-lock-constant-face))))
- '(company-tooltip-selection ((t (:inherit font-lock-function-name-face :background "brown4" :foreground "snow1"))))
- '(highlight ((t (:background "dark slate gray"))))
- '(show-paren-match ((t (:background "black" :foreground "green")))))
 
 ;; en modo de programacion activa los numeros de linea
 (add-hook 'prog-mode-hook 'linum-mode)
-;; aqui global-linum-mode puede estar equivocado
-;;(add-hook 'prog-mode-hook 'global-linum-mode)
-;; muestra los numeros de linea para todos los buffers
-;;(global-linum-mode t)
-;; solo activa los numeros de linea para clojure
-;;(add-hook 'clojure-mode-hook 'linum-mode)
-
-;; documentacion de cider
-(add-hook 'cider-mode-hook 'eldoc-mode)
-;; fuentes extras para clojure
-(eval-after-load 'clojure-mode '(require 'clojure-mode-extra-font-locking))
-
-;; Smartparens
-(require 'smartparens-config)
-(smartparens-global-mode t)
-;;(show-smartparens-global-mode t)
-;; Add smartparens-strict-mode to all sp--lisp-modes hooks. C-h v sp--lisp-modes
-;; to customize/view this list.
-(mapc (lambda (mode)
-        (add-hook (intern (format "%s-hook" (symbol-name mode))) 'smartparens-strict-mode))
-      sp--lisp-modes)
-;; Conveniently set keys into the sp-keymap, limiting the keybinding to buffers
-;; with SP mode activated
-(mapc (lambda (info)
-        (let ((key (kbd (car info)))
-              (function (car (cdr info))))
-          (define-key sp-keymap key function)))
-      '(("C-M-f" sp-forward-sexp)
-        ("C-M-b" sp-backward-sexp)
-
-        ("C-M-d" sp-down-sexp)
-        ("C-M-a" sp-backward-down-sexp)
-        ("C-S-a" sp-beginning-of-sexp)
-        ("C-S-d" sp-end-of-sexp)
-
-        ("C-M-e" sp-up-sexp)
-
-        ("C-M-u" sp-backward-up-sexp)
-        ("C-M-t" sp-transpose-sexp)
-
-        ("C-M-n" sp-next-sexp)
-        ("C-M-p" sp-previous-sexp)
-
-        ("C-M-k" sp-kill-sexp)
-        ("C-M-w" sp-copy-sexp)
-
-        ("M-<delete>" sp-unwrap-sexp)
-        ("M-<backspace>" sp-backward-unwrap-sexp)
-
-        ("C-<right>" sp-forward-slurp-sexp)
-        ("C-<left>" sp-forward-barf-sexp)
-        ("C-M-<left>" sp-backward-slurp-sexp)
-        ("C-M-<right>" sp-backward-barf-sexp)
-
-        ("M-D" sp-splice-sexp)
-        ("C-M-<delete>" sp-splice-sexp-killing-forward)
-        ("C-M-<backspace>" sp-splice-sexp-killing-backward)
-        ("C-S-<backspace>" sp-splice-sexp-killing-around)
-
-        ("C-]" sp-select-next-thing-exchange)
-        ("C-<left_bracket>" sp-select-previous-thing)
-        ("C-M-]" sp-select-next-thing)
-
-        ("M-F" sp-forward-symbol)
-        ("M-B" sp-backward-symbol)
-
-        ("H-t" sp-prefix-tag-object)
-        ("H-p" sp-prefix-pair-object)
-        ("H-s c" sp-convolute-sexp)
-        ("H-s a" sp-absorb-sexp)
-        ("H-s e" sp-emit-sexp)
-        ("H-s p" sp-add-to-previous-sexp)
-        ("H-s n" sp-add-to-next-sexp)
-        ("H-s j" sp-join-sexp)
-        ("H-s s" sp-split-sexp)))
-
-;; This is from authors config, seems to let you jump to the end of the current
-;; sexp with paren?
-(define-key emacs-lisp-mode-map (kbd ")") 'sp-up-sexp)
-
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(hl-paren-colors (quote ("firebrick1" "gray80" "gray60" "gray40")))
- '(ispell-program-name "C:/lisp/aspell/bin/aspell.exe")
- '(package-selected-packages
-   (quote
-    (magit projectile smex flx-ido ido-completing-read+ ido-vertical-mode helm-swoop web-mode smartparens markdown-mode hl-todo highlight-parentheses helm expand-region company clojure-mode-extra-font-locking cljr-helm))))
-
 
 (ido-mode 1)
 (ido-everywhere 1)
@@ -327,65 +175,130 @@
   )
 (global-set-key (kbd "M-<f8>") 'flyspell-check-next-highlighted-word)
 
-;; (require 'clj-refactor)
+;; Smartparens
+(require 'smartparens-config)
+(smartparens-global-mode t)
+(mapc (lambda (mode)
+        (add-hook (intern (format "%s-hook" (symbol-name mode))) 'smartparens-strict-mode))
+      sp--lisp-modes)
 
-;; (defun my-clojure-mode-hook ()
-;;     (clj-refactor-mode 1)
-;;     (yas-minor-mode 1)
-;;     ;; for adding require/use/import statements
-;;     ;; This choice of keybinding leaves cider-macroexpand-1 unbound
-;;     (cljr-add-keybindings-with-prefix "C-c C-m"))
+;;shorcut para expand region
+(global-set-key (kbd "C-=") 'er/expand-region)
+;; activar el modo de resaltado de TODO
+(global-hl-todo-mode t)
+;; autocomplete via company mode
+(add-hook 'after-init-hook 'global-company-mode)
+;;(global-company-mode)
+;; delay de company nil para activarlo manualmente
+(setq company-idle-delay nil)
+;; set the key for company complete
+(global-set-key [C-tab] #'company-complete)
+;;highlight-parentheses para todos los buffers
+(define-globalized-minor-mode global-highlight-parentheses-mode
+  highlight-parentheses-mode
+  (lambda ()
+    (highlight-parentheses-mode t)))
 
-;; (add-hook 'clojure-mode-hook #'my-clojure-mode-hook)
+(global-highlight-parentheses-mode t)
+;; resalta el parentesis que cierra
+(show-paren-mode 1)
+;; en modo de programacion activa los parentesis de varios colores
+;;(add-hook 'prog-mode-hook 'rainbow-delimiters-mode)
 
-;; (require 'helm-config)
-;; (with-eval-after-load 'helm
-;;   (define-key helm-map (kbd "<tab>") 'helm-execute-persistent-action))
-;; (global-set-key (kbd "C-x b") 'helm-buffers-list)
-;; (global-set-key (kbd "C-x C-b") 'helm-buffers-list)
-;; (global-set-key (kbd "C-x r b") 'helm-bookmarks)
-;; (global-set-key (kbd "M-y") 'helm-show-kill-ring)
-;; (global-set-key (kbd "C-x C-f") 'helm-find-files)
-;; (global-set-key (kbd "M-x") 'helm-M-x)
-;; (global-set-key (kbd "C-s") 'helm-swoop)
-;;(require 'cljr-helm)
+;; colores para los parentesis arcoiris
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(company-scrollbar-bg ((t (:background "#191919"))))
+ '(company-scrollbar-fg ((t (:background "#0C0C0C"))))
+ '(company-tooltip ((t (:inherit default :background "gray15"))))
+ '(company-tooltip-annotation ((t (:inherit default :foreground "#006400" :background "gray15"))))
+ '(company-tooltip-annotation-selection ((t (:inherit default :foreground "#00DD00" :background "brown4"))))
+ '(company-tooltip-common ((t (:inherit font-lock-constant-face))))
+ '(company-tooltip-selection ((t (:inherit font-lock-function-name-face :background "brown4" :foreground "snow1"))))
+ '(highlight ((t (:background "dark slate gray"))))
+ '(show-paren-match ((t (:background "black" :foreground "green")))))
 
-;; codigo borrado
-;;codigo copiado de github
-;;(with-eval-after-load 'company
-;;  (define-key company-mode-map [remap indent-for-tab-command]
-;;    'company-indent-for-tab-command))
+;; documentacion de cider
+(add-hook 'cider-mode-hook 'eldoc-mode)
+;; fuentes extras para clojure
+(eval-after-load 'clojure-mode '(require 'clojure-mode-extra-font-locking))
 
-;;(setq tab-always-indent 'complete)
+;; Conveniently set keys into the sp-keymap, limiting the keybinding to buffers
+;; with SP mode activated
+;; (mapc (lambda (info)
+;;         (let ((key (kbd (car info)))
+;;               (function (car (cdr info))))
+;;           (define-key sp-keymap key function)))
+;;       '(("C-M-f" sp-forward-sexp)
+;;         ("C-M-b" sp-backward-sexp)
 
-;;(defvar completion-at-point-functions-saved nil)
+;;         ("C-M-d" sp-down-sexp)
+;;         ("C-M-a" sp-backward-down-sexp)
+;;         ("C-S-a" sp-beginning-of-sexp)
+;;         ("C-S-d" sp-end-of-sexp)
 
-;;(defun company-indent-for-tab-command (&optional arg)
-;;  (interactive "P")
-;;  (let ((completion-at-point-functions-saved completion-at-point-functions)
-;;        (completion-at-point-functions '(company-complete-common-wrapper)))
-;;    (indent-for-tab-command arg)))
+;;         ("C-M-e" sp-up-sexp)
 
-;;(defun company-complete-common-wrapper ()
-;;  (let ((completion-at-point-functions completion-at-point-functions-saved))
-;;    (company-complete-common)))
+;;         ("C-M-u" sp-backward-up-sexp)
+;;         ("C-M-t" sp-transpose-sexp)
 
-;; use M-TAB, a.k.a. C-M-i, as manual trigger
-;;(global-set-key (kbd "M-TAB") #'company-complete)
-;;(setq hippie-expand-try-functions-list
-;;      '(try-expand-dabbrev-visible
-;;        (lambda (arg) (call-interactively 'company-complete))
-;;        (lambda (arg) (call-interactively 'completion-at-point))
-;;        ))
+;;         ("C-M-n" sp-next-sexp)
+;;         ("C-M-p" sp-previous-sexp)
 
-;; Haskell
+;;         ("C-M-k" sp-kill-sexp)
+;;         ("C-M-w" sp-copy-sexp)
 
-;;(add-hook 'haskell-mode-hook 'interactive-haskell-mode)
+;;         ("M-<delete>" sp-unwrap-sexp)
+;;         ("M-<backspace>" sp-backward-unwrap-sexp)
 
-;;(require 'hi2)
-;;(add-hook 'haskell-mode-hook 'turn-on-hi2)
+;;         ("C-<right>" sp-forward-slurp-sexp)
+;;         ("C-<left>" sp-forward-barf-sexp)
+;;         ("C-M-<left>" sp-backward-slurp-sexp)
+;;         ("C-M-<right>" sp-backward-barf-sexp)
 
-;;(eval-after-load 'flycheck
-;;  '(add-hook 'flycheck-mode-hook #'flycheck-haskell-setup))
+;;         ("M-D" sp-splice-sexp)
+;;         ("C-M-<delete>" sp-splice-sexp-killing-forward)
+;;         ("C-M-<backspace>" sp-splice-sexp-killing-backward)
+;;         ("C-S-<backspace>" sp-splice-sexp-killing-around)
 
-;;(add-hook 'haskell-mode-hook 'intero-mode)
+;;         ("C-]" sp-select-next-thing-exchange)
+;;         ("C-<left_bracket>" sp-select-previous-thing)
+;;         ("C-M-]" sp-select-next-thing)
+
+;;         ("M-F" sp-forward-symbol)
+;;         ("M-B" sp-backward-symbol)
+
+;;         ("H-t" sp-prefix-tag-object)
+;;         ("H-p" sp-prefix-pair-object)
+;;         ("H-s c" sp-convolute-sexp)
+;;         ("H-s a" sp-absorb-sexp)
+;;         ("H-s e" sp-emit-sexp)
+;;         ("H-s p" sp-add-to-previous-sexp)
+;;         ("H-s n" sp-add-to-next-sexp)
+;;         ("H-s j" sp-join-sexp)
+;;         ("H-s s" sp-split-sexp)))
+
+;; This is from authors config, seems to let you jump to the end of the current
+;; sexp with paren?
+(define-key emacs-lisp-mode-map (kbd ")") 'sp-up-sexp)
+
+(custom-set-variables
+ '(hl-paren-colors (quote ("firebrick1" "gray80" "gray60" "gray40")))
+ '(ispell-program-name "/usr/bin/aspell")
+ '(package-selected-packages
+   (quote
+    (magit projectile smex flx-ido ido-completing-read+ ido-vertical-mode web-mode smartparens markdown-mode hl-todo highlight-parentheses expand-region company clojure-mode-extra-font-locking cljr-helm))))
+
+(require 'clj-refactor)
+
+(defun my-clojure-mode-hook ()
+    (clj-refactor-mode 1)
+    (yas-minor-mode 1)
+    ;; for adding require/use/import statements
+    ;; This choice of keybinding leaves cider-macroexpand-1 unbound
+    (cljr-add-keybindings-with-prefix "C-c C-m"))
+
+(add-hook 'clojure-mode-hook #'my-clojure-mode-hook)
