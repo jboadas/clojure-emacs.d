@@ -115,19 +115,19 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/jboadas/devel/clojure/example01/" (23115 41473 670848 273000) ".hgignore" ".nrepl-port" "CHANGELOG.md" "../" "LICENSE" "./" "README.md" "doc/" "test/" ".lein-repl-history" "src/" "target/" "resources/" ".gitignore" "project.clj")
+ ("/home/jboadas/devel/clojure/example01/src/example01/" (23115 41969 643794 354000) "../" "./" "core.clj")
 
- ("/home/jboadas/devel/clojure/example01/src/example01/" (23115 40876 372768 591000) "../" "./" "core.clj")
+ ("/home/jboadas/devel/clojure/example01/" (23115 41979 387892 192000) ".hgignore" "CHANGELOG.md" "../" "LICENSE" "./" "README.md" "doc/" "test/" ".lein-repl-history" "src/" "target/" "resources/" ".gitignore" "project.clj")
+
+ ("/home/jboadas/" (23115 42351 703647 117000) ".smex-items" ".profile" ".bash_history" "Templates/" ".dbus/" ".config/" "Desktop/" ".themes/" "../" "./" ".emacs.d/" "Music/" ".cache/" ".lein/" ".pylint.d/" ".gconf/" ".xsession-errors.old" "Downloads/" ".sudo_as_admin_successful" "Videos/" ".bash_logout" ".Xauthority" ".linuxmint/" ".xsession-errors" ".bashrc" ".ssh/" "jan02-01.avi" ".gitconfig" ".wget-hsts" ".thunderbird/" "Public/" "Documents/" ".navicat64/" "devel/" ".electrum-ltc/" "Pictures/" ".pki/" ".ssr/" ".ICEauthority" ".m2/" "python.emacs.d.tar.gz" ".cinnamon/" "bin/" ".pylintrc" ".gksu.lock" ".dmrc" ".local/" ".gnupg/" ".icons/" ".mozilla/")
+
+ ("/home/jboadas/.emacs.d/" (23115 41990 19998 972000) "elpa/" "../" "./" ".git/" "README.md" "ac-comphist.dat" "themes/" "auto-save-list/" "ido.last" "recentf" "init.el" "vendor/")
 
  ("/home/jboadas/devel/clojure/example01/src/" (23115 37083 592354 505000) "../" "./" "example01/")
 
  ("/home/jboadas/devel/clojure/" (23115 37083 576354 329000) "../" "./" "example01/")
 
  ("/home/jboadas/devel/" (23115 36317 544085 2000) "python.tar.gz" "python/" "../" "./" "clojure/")
-
- ("/home/jboadas/" (23115 40329 555055 980000) ".smex-items" ".profile" ".bash_history" "Templates/" ".dbus/" ".config/" "Desktop/" ".themes/" "../" "./" ".emacs.d/" "Music/" ".cache/" ".lein/" ".pylint.d/" ".gconf/" ".xsession-errors.old" "Downloads/" ".sudo_as_admin_successful" "Videos/" ".bash_logout" ".Xauthority" ".linuxmint/" ".xsession-errors" ".bashrc" ".ssh/" "jan02-01.avi" ".gitconfig" ".wget-hsts" ".thunderbird/" "Public/" "Documents/" ".navicat64/" "devel/" ".electrum-ltc/" "Pictures/" ".pki/" ".ssr/" ".ICEauthority" ".m2/" "python.emacs.d.tar.gz" ".cinnamon/" "bin/" ".pylintrc" ".gksu.lock" ".dmrc" ".local/" ".gnupg/" ".icons/" ".mozilla/")
-
- ("/home/jboadas/.emacs.d/" (23115 40070 600322 438000) "elpa/" "../" "./" ".git/" "README.md" "ac-comphist.dat" "themes/" "auto-save-list/" "ido.last" "recentf" "init.el" "vendor/")
 
  ("/home/jboadas/devel/clojure/return-of-the-mac/src/return_of_the_mac/" (23102 46844 502578 617000) ".#core.clj" "core.clj" "../" "./")
 
