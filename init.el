@@ -275,6 +275,10 @@
 (define-key emacs-lisp-mode-map (kbd ")") 'sp-up-sexp)
 
 (custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
  '(hl-paren-colors (quote ("firebrick1" "gray80" "gray60" "gray40")))
  '(ispell-program-name "/usr/bin/aspell")
  '(package-selected-packages
